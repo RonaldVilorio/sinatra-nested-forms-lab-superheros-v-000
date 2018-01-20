@@ -1,5 +1,5 @@
 class SuperHero
-  def initialize
+  def initialize(name=nil,power=nil,biography=nil)
   end
 
 end
