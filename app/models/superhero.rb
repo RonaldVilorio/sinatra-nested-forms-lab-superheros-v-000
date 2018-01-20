@@ -7,5 +7,7 @@ class SuperHero
     @biography = biography
     @@all_heroes << self
   end
+  def self.all
+  end
 
 end
