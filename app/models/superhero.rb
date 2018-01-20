@@ -5,6 +5,7 @@ class SuperHero
     @name = name
     @power = power
     @biography = biography
+    @@all_heroes << self
   end
 
 end
