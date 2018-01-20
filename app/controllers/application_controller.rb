@@ -13,6 +13,7 @@ class App < Sinatra::Base
         SuperHero.new(member[:name],member[:power],member[:bio])
       end
       @heroes = SuperHero.all
+      @heroes
       # binding.pry
 
       # erb :team
