@@ -14,7 +14,7 @@ class App < Sinatra::Base
       end
       @heroes = SuperHero.all
       @heroes.each do |hero|
-        hero.name
+        hero.name.to_s
       end
       # binding.pry
 
